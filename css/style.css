@@ -1,0 +1,184 @@
+img{
+    width: 40%;
+}
+.container{
+    display: grid;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px ;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr ;
+    grid-template-areas:    "item1 item2 item2 item3" 
+                            "item1 item2 item2 item3"
+                            "item1 item5 item6 item3"
+                            "item4 item5 item6 item3" 
+                            "item4 item7 item8 item8" 
+                            "item4 item7 item8 item8";
+    gap: 1rem;
+    background-color: #f5f5f5;
+    padding: 3% 16%;
+    margin: 0 70px;
+}
+h2 ,h3, p{
+    font-family: 'dmsans', sans-serif;
+    font-weight: 500;
+}
+/*CSS FOR ITEM 1*/
+.item-1{
+    grid-area: item1;
+    background-color: #faeee2;
+    text-align: left;
+    font-size: large;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+    border-radius: 15px;
+}
+.item-1 span{
+    color: #7a54e8;
+    font-style: italic;
+    font-size: larger;
+}
+.item-1 h2{
+    margin: 10px;
+}
+.item-1 img{
+    width: 80px;
+    margin-left: 30px;
+}
+/*CSS FOR ITEM 2*/
+.item-2{
+    padding: 15px;
+    grid-area: item2;
+    background-color: #7651dc;
+    text-align: center;
+    font-size: large;
+    margin: 0 10px ;
+    border-radius: 15px;
+}
+.item-2 h2{
+    margin: 0 0 10px 0;
+    font-size: 1.7rem;
+}
+.item-2 h2 span{
+    color: #ffcc69;
+}
+#fast{
+    color: black;
+    font-style: italic;
+}
+.item-2 div{
+    font-size: 0.8rem;
+}
+/*CSS FOR ITEM 3*/
+.item-3{
+    grid-area: item3;
+    background-color: #dcd1fc;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 15px 0px 0px 15px;
+    overflow: hidden;
+}
+.item-3 h2{
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+.item-3  img{
+    height: 23vh;
+    width: 250px;
+    margin-left: 20px;
+    position: relative;
+    right: 10px;
+}
+#socialText{
+    font-size: .9rem;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 1;
+    font-family: 'dmsans', sans-serif;
+}
+/*CSS FOR ITEM 4*/
+.item-4{
+    padding: 10px;
+    grid-area: item4;
+    background-color: #ffcc69;
+    text-align: left;
+    margin: 10px 10px 0 0;
+    border-radius: 15px;
+}
+.item-4 h2{
+    font-size: 1.3rem;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.item-4 img{
+    height: 130px;
+    width: 150px;
+    justify-content: center;
+    margin-left: 15px;
+}
+/*CSS FOR ITEM 5*/
+.item-5{
+    padding-top: 10px;
+    padding-left: 15px;
+    grid-area: item5;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.item-5 h3{
+    margin: 0px;
+
+}
+.item-5 img{
+    width: 90%;
+    border-radius: 10px;
+}
+/*CSS FOR ITEM 6*/
+.item-6{
+    padding: 5px 10px;
+    grid-area: item6;
+    background-color: #ffcc69;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.item-6 h3{
+    margin: 8px 0;
+    line-height: .9;
+}
+.item-6 img{
+    width: 100%;
+    align-content: center;
+}
+
+/*CSS FOR ITEM 7*/
+.item-7{
+    padding: 10px 20px;
+    grid-area: item7;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.item-7 h2{
+    margin: 0;
+    font-size: 2.5rem;
+}
+.item-7 p{
+    font-size: 0.9rem;
+    margin: 0 0 18px 0 ;
+}
+.item-7 img{
+    width: 90%;
+    height: 30%;
+}
+/*CSS FOR ITEM 8*/
+.item-8{
+    padding: 5px;
+    grid-area: item8;
+    background-color: #dcd1fc;
+    position: relative;
+    padding: 3%;
+    border-radius: 10px;
+}
+.item-8 p{
+    position: absolute;
+    top: 16%;
+    left: 42%;
+    font-size: 1.7rem;
+    margin: 0;
+    line-height: 1;
+}
